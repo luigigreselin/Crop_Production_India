@@ -9,6 +9,12 @@ around 98%
 1. drop the nan on production (there were only 2k missing values on more than 200k)
 2. check for correaltion between numerical variables (not found)
 3. divide according to macrogroups (as suggested by vivekkumarprajapati) both states and crops. The states were divided into 6 macro zones, and the crops in 8 crop types.
+4. eliminate the last year (2015) as it was clearly an outlier (the production for most crops dropped to 1/100)
+5. 
+![](https://github.com/luigigreselin/Crop_Production_India/blob/main/images/crop_per_region.PNG)
 
 # Analysis
 After having noticed that wheat and rice are the two most common crops, I proposed a random forest regressor. On the test dataset the correlation was around 98% for both wheat and rice
+
+![](https://github.com/luigigreselin/Crop_Production_India/blob/main/images/rice_production.PNG)
+![](https://github.com/luigigreselin/Crop_Production_India/blob/main/images/wheat_production.PNG)
