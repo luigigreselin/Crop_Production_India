@@ -18,3 +18,7 @@ After having noticed that wheat and rice are the two most common crops, I propos
 
 ![](https://github.com/luigigreselin/Crop_Production_India/blob/main/images/rice_production.PNG)
 ![](https://github.com/luigigreselin/Crop_Production_India/blob/main/images/wheat_production.PNG)
+
+# Data
+
+Data can be found [here](https://www.kaggle.com/abhinand05/crop-production-in-india) 
